@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Susen Halder | Filmexss — Portfolio</title>
+  <meta name="description" content="Portfolio of Susen Halder (Filmexss): Video Editing, Cinematography, Photography, Marketing." />
+  <meta name="author" content="Susen Halder" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='0.9em' font-size='90'>🎬</text></svg>">
+  <style>
+    :root{
+      --brand:#0b5ed7;      /* primary brand color (deep blue) */
+      --brand-dark:#0a58ca;  /* darker shade */
+      --ink:#0b1520;         /* text */
+      --muted:#667085;       /* muted text */
+      --bg:#ffffff;          /* background */
+      --soft:#f5f7fb;        /* soft section bg */
+      --radius:1.25rem;      /* 20px rounded */
+      --shadow:0 10px 25px rgba(2, 23, 67, .08);
+    }
+    html,body{font-family:"Poppins",system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial,sans-serif;color:var(--ink);}
+    .btn-brand{background:var(--brand);border-color:var(--brand);}
+    .btn-brand:hover{background:var(--brand-dark);border-color:var(--brand-dark);}
+    .nav-link{font-weight:500}
+    .navbar{box-shadow:var(--shadow);}
+    .hero{padding:96px 0;background:linear-gradient(180deg, #f2f6ff 0%, #ffffff 100%);}    
+    .hero .avatar{width:120px;height:120px;border-radius:50%;object-fit:cover;box-shadow:var(--shadow);}
+    .surface{background:var(--bg);border-radius:var(--radius);box-shadow:var(--shadow);}    
+    .section-pad{padding:72px 0}
+    .badge-skill{background:#eef2ff;color:#334155;border:1px solid #dbe3ff}
+    .project-card{overflow:hidden;border:none;border-radius:var(--radius);box-shadow:var(--shadow);}
+    .project-thumb{width:100%;height:200px;object-fit:cover;background:#e9ecef}
+    .brand-chip{display:inline-flex;align-items:center;gap:.5rem;padding:.35rem .75rem;border-radius:999px;background:#e7f1ff;color:#0b5ed7;font-weight:600}
+    .footer{padding:32px 0;border-top:1px solid #eef2f7;color:var(--muted)}
+    .muted{color:var(--muted)}
+    .section-title{font-weight:700;letter-spacing:.2px}
+    /* Smooth anchor offset */
+    :target{scroll-margin-top:100px}
+  </style>
+</head>
+<body>
+  <!-- ===================== NAVBAR ===================== -->
+  <nav class="navbar navbar-expand-lg bg-white sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="#home">
+        <span class="brand-chip"><span>🎬</span> Filmexss</span>
+        <span class="d-none d-sm-inline text-muted fw-semibold">by Susen Halder</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <header id="home" class="hero">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-7">
+          <p class="text-uppercase text-secondary mb-2">Filmexss • Portfolio</p>
+          <h1 class="display-5 fw-bold mb-3">Hi, I’m <span class="text-primary">Susen Halder</span></h1>
+          <p class="lead mb-4">Video Editor • Cinematographer • Photographer • Marketing</p>
+          <div class="d-flex gap-3 flex-wrap">
+            <a href="#projects" class="btn btn-brand btn-lg">View Projects</a>
+            <a href="#contact" class="btn btn-outline-primary btn-lg">Hire Me</a>
+          </div>
+        </div>
+        <div class="col-lg-5 text-lg-end text-center">
+          <!-- Replace src with your headshot -->
+          <img class="avatar" src="img/profile susen.png" alt="Susen Halder portrait" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section id="about" class="section-pad">
+    <div class="container">
+      <div class="row g-4 align-items-stretch">
+        <div class="col-lg-7">
+          <div class="surface p-4 p-lg-5 h-100">
+            <h2 class="section-title mb-3">About Me</h2>
+            <p class="mb-3">I’m <strong>Susen Halder</strong>, founder of <strong>Filmexss</strong>. I craft cinematic stories and attention-grabbing edits for brands, music videos, weddings, and social media. From pre-production to final color, I deliver clean, modern visuals that convert.</p>
+            <p class="mb-0 muted">Based in Bangladesh • Available for remote & on-site work.</p>
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="surface p-4 p-lg-5 h-100">
+            <h3 class="h5 mb-3">Quick Info</h3>
+            <ul class="list-unstyled mb-0">
+              <li class="mb-2"><strong>Studio:</strong> Filmexss</li>
+              <li class="mb-2"><strong>Services:</strong> Video Editing, Cinematography, Photography, Marketing</li>
+              <li class="mb-2"><strong>Email:</strong> <a href="susenhl18@gmail.com">susenhl18@gmail.com</a></li>
+              <li class="mb-2"><strong>Phone:</strong> <a href="tel:+8801859960199">+880 1859960199</a></li>
+              <li class="mb-2"><strong>Social:</strong> <a href="#">Facebook</a> • <a href="#">Instagram</a> • <a href="#">YouTube</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section id="skills" class="section-pad" style="background:var(--soft);">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col">
+          <h2 class="section-title">Skills</h2>
+          <p class="muted">Core tools & capabilities</p>
+        </div>
+      </div>
+      <div class="row g-3">
+        <div class="col-6 col-md-4 col-lg-3"><span class="badge rounded-pill badge-skill w-100 text-center py-2">DaVinci Resolve</span></div>
+        <div class="col-6 col-md-4 col-lg-3"><span class="badge rounded-pill badge-skill w-100 text-center py-2">Adobe Premiere Pro</span></div>
+        <div class="col-6 col-md-4 col-lg-3"><span class="badge rounded-pill badge-skill w-100 text-center py-2">After Effects</span></div>
+        <div class="col-6 col-md-4 col-lg-3"><span class="badge rounded-pill badge-skill w-100 text-center py-2">Color Grading</span></div>
+        <div class="col-6 col-md-4 col-lg-3"><span class="badge rounded-pill badge-skill w-100 text-center py-2">Cinematography</span></div>
+        <div class="col-6 col-md-4 col-lg-3"><span class="badge rounded-pill badge-skill w-100 text-center py-2">Photography</span></div>
+        <div class="col-6 col-md-4 col-lg-3"><span class="badge rounded-pill badge-skill w-100 text-center py-2">Motion Graphics</span></div>
+        <div class="col-6 col-md-4 col-lg-3"><span class="badge rounded-pill badge-skill w-100 text-center py-2">Marketing Strategy</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section id="projects" class="section-pad">
+    <div class="container">
+      <div class="d-flex justify-content-between align-items-end mb-3">
+        <div>
+          <h2 class="section-title mb-1">Projects</h2>
+          <p class="muted mb-0">Just paste links — YouTube, Instagram Reels, Google Drive, Vimeo or any URL.</p>
+        </div>
+        <button class="btn btn-outline-primary d-none d-md-inline" data-bs-toggle="collapse" data-bs-target="#addPanel" aria-expanded="false">Add Project Link</button>
+      </div>
+
+      <!-- Add Link Panel (optional) -->
+      <div id="addPanel" class="collapse mb-4 surface p-3 p-md-4">
+        <form id="projectForm" class="row g-2 g-md-3 align-items-end">
+          <div class="col-12 col-md-5">
+            <label for="projUrl" class="form-label">Project URL</label>
+            <input type="url" class="form-control" id="projUrl" placeholder="https://youtu.be/..." required>
+          </div>
+          <div class="col-12 col-md-4">
+            <label for="projTitle" class="form-label">Title (optional)</label>
+            <input type="text" class="form-control" id="projTitle" placeholder="Music Video / Client Name">
+          </div>
+          <div class="col-12 col-md-3 d-grid">
+            <button class="btn btn-brand" type="submit">Save</button>
+          </div>
+          <div class="col-12"><small class="muted">Saved locally in your browser. To make permanent, copy the generated HTML below and paste into your file (see Export).</small></div>
+        </form>
+      </div>
+
+      <!-- Project Grid -->
+      <div id="projectGrid" class="row g-4">
+        <!-- Example starter cards (replace or delete) -->
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card project-card">
+            <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank" rel="noopener">
+              <img class="project-thumb" src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&w=1200&auto=format&fit=crop" alt="Project thumbnail">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Corporate Promotions Video — Sample</h5>
+              <p class="card-text muted">YouTube link • Cinematic edit</p>
+              <a class="btn btn-outline-primary btn-sm" href="https://youtu.be/ADlBnIcA3B8?si=ss9_A1Yj4dUi5DFf" target="_blank" rel="noopener">Open</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card project-card">
+            <a href="https://vimeo.com/45830194" target="_blank" rel="noopener">
+              <img class="project-thumb" src="img/Videography Tutorial Youtube Thumbnail.png" alt="Project thumbnail">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Shorts Film — Sample</h5>
+              <p class="card-text muted">Vimeo link • Watch </p>
+              <a class="btn btn-outline-primary btn-sm" href="https://youtu.be/QPn0Hqj5HUA?si=_2cQCUkteYTVkmPk" target="_blank" rel="noopener">Open</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-4">
+          <div class="card project-card">
+            <a href="https://drive.google.com" target="_blank" rel="noopener">
+              <img class="project-thumb" src="img/Blue and White Modern Video Editing Services Instagram Post.png" alt="Project thumbnail">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Motion Graphics Ads — Sample</h5>
+              <p class="card-text muted">YouTube Link  • Watch Full Channel</p>
+              <a class="btn btn-outline-primary btn-sm" href="https://youtu.be/6LSG4t2bKFY?si=Ck6sSLyCf8YFI6Lk" target="_blank" rel="noopener">Open</a>
+            </div>
+          </div>
+        </div>
+      </div>
+<div class="col-12 col-sm-6 col-lg-4">
+          <div class="card project-card">
+            <a href="https://drive.google.com" target="_blank" rel="noopener">
+              <img class="project-thumb" src="img/Black and Red Geometric Digital Marketing with Services Instagram Post.png" alt="Project thumbnail">
+            </a>
+            <div class="card-body">
+              <h5 class="card-title">Graphics designed — Sample</h5>
+              <p class="card-text muted">Facebook Post • Check Page </p>
+              <a class="btn btn-outline-primary btn-sm" href="https://www.facebook.com/share/p/1AxS5Jz771/" target="_blank" rel="noopener">Open</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Export HTML (optional helper) -->
+      <div class="mt-5">
+        <button id="exportBtn" class="btn btn-outline-secondary btn-sm">Export Added Projects (Copy HTML)</button>
+        <textarea id="exportBox" class="form-control mt-2" rows="4" placeholder="Generated project HTML will appear here for copy & paste."></textarea>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TESTIMONIALS (optional placeholder) ===================== -->
+  <section class="section-pad" style="background:var(--soft);">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h2 class="section-title">Testimonials</h2>
+        </div>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-6">
+          <div class="surface p-4 p-lg-5 h-100">
+            <p class="mb-1">“Clean, cinematic and on time. Highly recommended.”</p>
+            <p class="muted mb-0">— Client Name, Brand</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="surface p-4 p-lg-5 h-100">
+            <p class="mb-1">“Our campaign CTR doubled after Filmexss edits.”</p>
+            <p class="muted mb-0">— Marketing Lead, Company</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section id="contact" class="section-pad">
+    <div class="container">
+      <div class="row g-4 align-items-stretch">
+        <div class="col-lg-6">
+          <div class="surface p-4 p-lg-5 h-100">
+            <h2 class="section-title mb-3">Let’s Work</h2>
+            <p class="muted">Tell me about your project. I’ll reply within 24 hours.</p>
+            <form action="mailto:hello@filmexss.com" method="post" enctype="text/plain" class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label">Name</label>
+                <input type="text" class="form-control" name="name" required>
+              </div>
+              <div class="col-md-6">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" name="Email" required>
+              </div>
+              <div class="col-12">
+                <label class="form-label">Message</label>
+                <textarea class="form-control" name="message" rows="4" required></textarea>
+              </div>
+              <div class="col-12 d-grid d-sm-flex gap-2">
+                <button class="btn btn-brand" type="susenhl18@gmail.com">Send Email</button>
+                <a class="btn btn-outline-primary" href="https://wa.me/8801859960199" target="_blank" rel="noopener">WhatsApp</a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="surface p-4 p-lg-5 h-100">
+            <h3 class="h5 mb-3">Why Filmexss?</h3>
+            <ul class="mb-0">
+              <li class="mb-2">Story-first approach with modern cinematic visuals.</li>
+              <li class="mb-2">Marketing mindset: edits designed to convert.</li>
+              <li class="mb-2">Fast, reliable delivery with clean communication.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center gap-2">
+      <span>© <span id="year"></span> Filmexss — Susen Halder</span>
+      <span class="muted">📞 Phone: 01859960199
+📧 Email: susenhl18@gmail.com
+📍 Location: Dhaka Uttara • 🎥 Cinematography • ✂️ Professional Video Editing</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    // Current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // ---------- PROJECTS: paste link to add card (saved to localStorage) ----------
+    const grid = document.getElementById('projectGrid');
+    const form = document.getElementById('projectForm');
+    const exportBtn = document.getElementById('exportBtn');
+    const exportBox = document.getElementById('exportBox');
+    const STORAGE_KEY = 'filmexss_projects_v1';
+
+    function guessThumb(url){
+      try{
+        const u = new URL(url);
+        if(u.host.includes('youtu')){
+          // YouTube thumbnail from v param or path id
+          const id = u.searchParams.get('v') || u.pathname.split('/').filter(Boolean).pop();
+          return `https://img.youtube.com/vi/${id}/hqdefault.jpg`;
+        }
+        if(u.host.includes('vimeo')){
+          // Generic placeholder for Vimeo (API would need fetch). Use a camera image
+          return 'https://images.unsplash.com/photo-1495563381401-ecfbcaaa67d5?q=80&w=1200&auto=format&fit=crop';
+        }
+      }catch(e){}
+      // Fallback
+      return 'https://images.unsplash.com/photo-1511765224389-37f0e77cf0eb?q=80&w=1200&auto=format&fit=crop';
+    }
+
+    function cardHTML({title,url,thumb}){
+      const safeTitle = title && title.trim() ? title.trim() : 'Project';
+      const safeThumb = thumb || guessThumb(url);
+      return `
+      <div class="col-12 col-sm-6 col-lg-4">
+        <div class="card project-card">
+          <a href="${url}" target="_blank" rel="noopener">
+            <img class="project-thumb" src="${safeThumb}" alt="${safeTitle}">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">${safeTitle}</h5>
+            <p class="card-text muted">${new URL(url).host}</p>
+            <a class="btn btn-outline-primary btn-sm" href="${url}" target="_blank" rel="noopener">Open</a>
+          </div>
+        </div>
+      </div>`;
+    }
+
+    function saveProjects(list){
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(list));
+    }
+    function loadProjects(){
+      try{
+        return JSON.parse(localStorage.getItem(STORAGE_KEY)) || [];
+      }catch(e){return []}
+    }
+    function renderProjects(){
+      const items = loadProjects();
+      const html = items.map(cardHTML).join('');
+      const marker = document.getElementById('projectGrid');
+      // Keep initial sample cards + added ones appended after them
+      marker.insertAdjacentHTML('beforeend', html);
+    }
+
+    form?.addEventListener('submit', (e)=>{
+      e.preventDefault();
+      const url = document.getElementById('projUrl').value.trim();
+      const title = document.getElementById('projTitle').value.trim();
+      if(!url) return;
+      const item = {title,url,thumb:guessThumb(url)};
+      // Save
+      const list = loadProjects();
+      list.push(item);
+      saveProjects(list);
+      // Render
+      grid.insertAdjacentHTML('beforeend', cardHTML(item));
+      // Reset form
+      form.reset();
+    });
+
+    exportBtn?.addEventListener('click', ()=>{
+      const list = loadProjects();
+      const html = list.map(cardHTML).join('\n');
+      exportBox.value = html;
+      exportBox.select();
+      document.execCommand('copy');
+    });
+
+    // Render saved items on load
+    renderProjects();
+  </script>
+
+  <!-- ===================== HOW TO USE (comment) =====================
+  PROJECTS: Only paste link — easy method
+  1) Click "Add Project Link" (top-right of Projects section)
+  2) Paste your URL (YouTube / Vimeo / Drive / Instagram Reel / Facebook video etc.)
+  3) (Optional) Add a title and hit Save. It saves in your browser instantly.
+  4) Click "Export Added Projects" to copy generated HTML and paste into this file to make it permanent before uploading.
+
+  QUICK BRAND EDITS:
+  - Change brand name in the navbar ("Filmexss") and Hero texts.
+  - Replace portrait image src with your own.
+  - Update email, phone, WhatsApp, and social links in About/Contact.
+
+  HOSTING (free):
+  - GitHub Pages: push this file to a repo named username.github.io
+  - Netlify/Vercel: drag & drop the folder in dashboard
+
+  Enjoy! — Built for Susen Halder (Filmexss)
+  ===================================================== -->
+</body>
+</html>
